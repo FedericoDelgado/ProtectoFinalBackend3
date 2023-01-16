@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head') %>
+  </head>
+  <body>
+    <header>
+      <%- include('./partials/header-login', {current: 'form-product'}) %>
+    </header>
+    <div class="jumbotron">
+      <div class="jumbotron"> 
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Descripcion</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Stock</th>
+              <th scope="col">Imagen</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row"><%= productById.id %></td>
+              <td><%= productById.nombre %></td>
+              <td><%= productById.descripcion %></td>
+              <td>$<%= productById.precio %></td>
+              <td><%= productById.stock %></td>
+              <td>
+                <img src="<%= productById.thumbnail %>" width="60" height="60">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <footer>
+      <%- include('./partials/footer') %>
+    </footer>
+  </body>
+</html>

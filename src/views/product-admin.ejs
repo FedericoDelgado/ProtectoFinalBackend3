@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <%- include('./partials/head') %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <%- include('./partials/header-login') %>
+    </header> 
+    <div class="jumbotron">
+      <div class="jumbotron">
+        <form action="/api/product" method="POST">
+          <h2 class="display-4">Agregar producto</h2>
+          <br>
+          <p>Nombre:</p>
+          <div class="form-group">
+            <input type="text" id="name" name="name" class="form-control form-control-lg" required minlength="3" value="Producto 01"/>
+          </div>
+          <p>Código:</p>
+          <div class="form-group">
+            <input type="text" id="code" name="code" class="form-control form-control-lg" required minlength="3" value="PR0001"/>
+          </div>
+          <p>Descripción:</p>
+          <div class="form-group">
+            <input type="text" id="description" name="description" class="form-control form-control-lg" required minlength="3" value="Producto uno"/>
+          </div>                    
+          <p>Precio:</p>
+          <div class="form-group">
+            <input type="number" id="price" name="price" class="form-control form-control-lg" required minlength="3" value="30000" />
+          </div>
+          <p>Stock:</p>
+          <div class="form-group">
+            <input type="number" id="stock" name="stock" class="form-control form-control-lg" required minlength="3" value="200"/>
+          </div>
+          <p>Imagen (url):</p>
+          <div class="form-group">
+            <input type="text" id="thumbnail" name="thumbnail" class="form-control form-control-lg" required minlength="3" value="https://cdn3.iconfinder.com/data/icons/web-design-and-development-3-8/66/109-64.png"/>
+          </div>
+          <button class="btn btn-primary" type="submit">Agregar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <%- include('./partials/footer') %>
+  </footer>
+</html>

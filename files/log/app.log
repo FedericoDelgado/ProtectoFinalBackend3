@@ -1,0 +1,205 @@
+2023-01-13T01:59:53.848Z [32minfo[39m: 	Servidor http en puerto: 8080
+2023-01-13T01:59:54.019Z [32minfo[39m: 	 
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMesjUQ
+  Method: GET
+2023-01-13T01:59:54.022Z [31merror[39m: 	
+  State: 404
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMesjUQ
+  Method: GET
+2023-01-13T01:59:59.490Z [32minfo[39m: 	
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMeslBu
+  Method: GET
+2023-01-13T01:59:59.494Z [31merror[39m: 	
+  State: 404
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMeslBu
+  Method: GET
+2023-01-13T02:00:05.481Z [32minfo[39m: 	
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMesmfX
+  Method: GET
+2023-01-13T02:00:05.483Z [31merror[39m: 	
+  State: 404
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMesmfX
+  Method: GET
+2023-01-13T02:00:06.555Z [32minfo[39m: 	
+  Path url: /
+  Method: GET
+2023-01-13T02:00:10.904Z [32minfo[39m: 	
+  Path url: /login
+  Method: GET
+2023-01-13T02:00:11.482Z [32minfo[39m: 	
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMeso7H
+  Method: GET
+2023-01-13T02:00:11.484Z [31merror[39m: 	
+  State: 404
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMeso7H
+  Method: GET
+2023-01-13T02:00:12.577Z [32minfo[39m: 	
+  Path url: /login
+  Method: POST
+2023-01-13T02:00:14.567Z [32minfo[39m: 	
+  Path url: /welcome
+  Method: GET
+2023-01-13T02:00:17.824Z [32minfo[39m: 	
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMespb3
+  Method: GET
+2023-01-13T02:00:17.826Z [31merror[39m: 	
+  State: 404
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMespb3
+  Method: GET
+2023-01-13T02:00:19.184Z [32minfo[39m: 	
+  Path url: /api/product
+  Method: GET
+2023-01-13T02:00:23.817Z [32minfo[39m: 	
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMesr2g
+  Method: GET
+2023-01-13T02:00:23.818Z [31merror[39m: 	
+  State: 404
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMesr2g
+  Method: GET
+2023-01-13T02:00:29.822Z [32minfo[39m: 	
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMessWa
+  Method: GET
+2023-01-13T02:00:29.823Z [31merror[39m: 	
+  State: 404
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMessWa
+  Method: GET
+2023-01-13T02:00:35.818Z [32minfo[39m: 	
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMest-I
+  Method: GET
+2023-01-13T02:00:35.820Z [31merror[39m: 	
+  State: 404
+  Path url: /socket.io/?EIO=4&transport=polling&t=OMest-I
+  Method: GET
+2023-01-14T02:59:33.553Z [32minfo[39m: 	Servidor http en puerto: 8080
+2023-01-14T02:59:46.405Z [32minfo[39m: 	
+  Path url: /
+  Method: GET
+2023-01-14T02:59:49.094Z [32minfo[39m: 	
+  Path url: /login
+  Method: GET
+2023-01-14T02:59:51.190Z [32minfo[39m: 	
+  Path url: /login
+  Method: POST
+2023-01-14T02:59:53.154Z [32minfo[39m: 	
+  Path url: /welcome
+  Method: GET
+2023-01-14T02:59:57.126Z [32minfo[39m: 	
+  Path url: /api/cart
+  Method: GET
+2023-01-14T02:59:58.228Z [32minfo[39m: 	
+  Path url: /api/product
+  Method: GET
+2023-01-14T03:02:46.131Z [32minfo[39m: 	Servidor http en puerto: 8080
+2023-01-16T22:23:54.298Z [32minfo[39m: 	Servidor http en puerto: 8080
+2023-01-16T22:24:08.390Z [32minfo[39m: 	
+  Path url: /
+  Method: GET
+2023-01-16T22:24:12.693Z [32minfo[39m: 	
+  Path url: /login
+  Method: GET
+2023-01-16T22:24:14.510Z [32minfo[39m: 	
+  Path url: /login
+  Method: POST
+2023-01-16T22:24:16.543Z [32minfo[39m: 	
+  Path url: /welcome
+  Method: GET
+2023-01-16T22:24:20.537Z [32minfo[39m: 	
+  Path url: /profile
+  Method: GET
+2023-01-16T22:24:20.929Z [32minfo[39m: 	
+  Path url: /uploads/1673574744683-icon-2.png
+  Method: GET
+2023-01-16T22:24:20.931Z [31merror[39m: 	
+  State: 404
+  Path url: /uploads/1673574744683-icon-2.png
+  Method: GET
+2023-01-16T22:24:21.613Z [32minfo[39m: 	
+  Path url: /api/cart
+  Method: GET
+2023-01-16T22:24:25.482Z [32minfo[39m: 	
+  Path url: /api/cart
+  Method: GET
+2023-01-16T22:24:25.973Z [32minfo[39m: 	
+  Path url: /api/product
+  Method: GET
+2023-01-16T22:27:45.952Z [32minfo[39m: 	Servidor http en puerto: 8080
+2023-01-16T22:27:48.463Z [32minfo[39m: 	
+  Path url: /
+  Method: GET
+2023-01-16T22:27:49.980Z [32minfo[39m: 	
+  Path url: /login
+  Method: GET
+2023-01-16T22:27:51.503Z [32minfo[39m: 	
+  Path url: /login
+  Method: POST
+2023-01-16T22:27:53.999Z [32minfo[39m: 	
+  Path url: /welcome
+  Method: GET
+2023-01-16T22:27:56.882Z [32minfo[39m: 	
+  Path url: /api/product
+  Method: GET
+2023-01-16T22:27:59.078Z [32minfo[39m: 	
+  Path url: /api/cart/add-product
+  Method: POST
+2023-01-16T22:28:00.527Z [32minfo[39m: 	
+  Path url: /api/product
+  Method: GET
+2023-01-16T22:28:02.896Z [32minfo[39m: 	
+  Path url: /api/cart
+  Method: GET
+2023-01-16T22:28:05.688Z [32minfo[39m: 	
+  Path url: /api/order
+  Method: POST
+2023-01-16T22:28:07.627Z [31merror[39m: 	sendMail::: Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t4-20020a4aa3c4000000b004a05e943f9esm13905710ool.21 - gsmtp
+2023-01-16T22:28:07.629Z [31merror[39m: 	orderSendMail:::undefined
+2023-01-16T22:28:09.975Z [32minfo[39m: 	
+  Path url: /profile
+  Method: GET
+2023-01-16T22:28:11.186Z [32minfo[39m: 	
+  Path url: /uploads/1673574744683-icon-2.png
+  Method: GET
+2023-01-16T22:28:11.189Z [31merror[39m: 	
+  State: 404
+  Path url: /uploads/1673574744683-icon-2.png
+  Method: GET
+2023-01-16T22:28:14.599Z [32minfo[39m: 	
+  Path url: /api/product
+  Method: GET
+2023-01-16T22:30:41.928Z [32minfo[39m: 	Servidor http en puerto: 8080
+2023-01-16T22:30:45.683Z [32minfo[39m: 	
+  Path url: /
+  Method: GET
+2023-01-16T22:30:47.515Z [32minfo[39m: 	
+  Path url: /login
+  Method: GET
+2023-01-16T22:30:48.897Z [32minfo[39m: 	
+  Path url: /login
+  Method: POST
+2023-01-16T22:30:52.162Z [32minfo[39m: 	
+  Path url: /welcome
+  Method: GET
+2023-01-16T22:31:03.183Z [32minfo[39m: 	
+  Path url: /api/product
+  Method: GET
+2023-01-16T22:31:05.818Z [32minfo[39m: 	
+  Path url: /api/cart/add-product
+  Method: POST
+2023-01-16T22:31:07.244Z [32minfo[39m: 	
+  Path url: /api/product
+  Method: GET
+2023-01-16T22:31:09.569Z [32minfo[39m: 	
+  Path url: /api/cart
+  Method: GET
+2023-01-16T22:31:11.068Z [32minfo[39m: 	
+  Path url: /api/product
+  Method: GET
+2023-01-16T22:31:17.270Z [32minfo[39m: 	
+  Path url: /api/cart
+  Method: GET
+2023-01-16T22:31:19.219Z [32minfo[39m: 	
+  Path url: /api/order
+  Method: POST
+2023-01-16T22:31:20.852Z [31merror[39m: 	sendMail::: Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g19-20020a9d6213000000b0068646a8223bsm258198otj.57 - gsmtp
+2023-01-16T22:31:20.854Z [31merror[39m: 	orderSendMail:::undefined

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <%- include('./partials/head') %>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <%- include('./partials/header-login', {current: '#'}) %>
+    </header> 
+    <div class="jumbotron">
+      <main>
+        <div class="jumbotron">
+          <h1 class="display-4">Perfil de usuario</h1>
+          <table class="table">
+            <thead>
+                <tr>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Email</th>
+                  <th scope="col">Teléfono</th>
+                  <th scope="col">Dirección</th>
+                  <th scope="col">Foto</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><%= userLog.username %></td>
+                <td><%= userLog.email %></td>
+                <td><%= userLog.phone %></td>
+                <td><%= userLog.address %></td>
+                <td>
+                  <img src="/uploads/<%= userLog.photo %>"width="60" height="60">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <%- include('./partials/footer') %>
+    </footer>
+  </body>
+</html>
